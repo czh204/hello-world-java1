@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/czh204/hello-world-java1'
+                git branch: 'main', url: 'https://github.com/czh204/hello-world-java1'
             }
         }
         stage('Build') {
